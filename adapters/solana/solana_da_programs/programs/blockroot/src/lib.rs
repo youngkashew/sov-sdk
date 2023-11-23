@@ -6,7 +6,7 @@ use anchor_lang::prelude::*;
 
 use crate::da::{BlocksRoot, Chunk, ChunkAccumulator, CHUNK_SIZE, PREFIX};
 
-declare_id!("6YQGvP866CHpLTdHwmLqj2Vh5q7T1GF4Kk9gS9MCta8E");
+declare_id!("97ePxezDXnc5PHzyxaYDwSEzt9B5nTGDS8AxUeuGZAZv");
 
 #[program]
 pub mod blockroot {

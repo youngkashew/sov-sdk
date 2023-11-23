@@ -1,5 +1,5 @@
 {
-    "libpath": "./libyellowstone_grpc_geyser.dylib",
+    "libpath": "./libyellowstone_grpc_geyser.so",
     "grpc": {
         "address": "0.0.0.0:10000",
         "channel_capacity": "100_000",

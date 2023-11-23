@@ -5,7 +5,7 @@ TMP_DIR := $(shell mktemp -d)
 REPO_DIR=$(TMP_DIR)/yellowstone-grpc
 GEYSER_DIR=$(REPO_DIR)/yellowstone-grpc-geyser
 DEST_DIR := $(PWD)
-LIB_NAME=libyellowstone_grpc_geyser.dylib
+LIB_NAME=libyellowstone_grpc_geyser.so
 
 .PHONY: all clean
 
