@@ -46,7 +46,7 @@ volumes:
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: './credentials'
+      device: '/home/ubuntu/sovereign-sdk/docker/credentials'
   # a temporary fs where the genesis hash is announced
   genesis:
     driver_opts:
